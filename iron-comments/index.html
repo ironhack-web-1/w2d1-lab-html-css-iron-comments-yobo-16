@@ -11,8 +11,32 @@
 </head>
 <body>
 
-    <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+    <form action="/google.es" method="get" id="form-container">
+        <!-- Name: Email: Comment: Receive email updates? Submit -->
+        <fieldset class="campo">
+            <label class="text" for="name">Name:</label>
+            <br>
+            <input class="inputWidth" type="text" name="name" id="name" placeholder="Put your name here">
+        </fieldset>
+
+        <fieldset class="campo">
+            <label class="text" for="email">Email:</label>
+            <br>
+            <input class="inputWidth" type="email" placeholder="Put your email here">
+        </fieldset>
+
+        <fieldset class="campo">
+            <label class="text" for="comments"> Comment</label>
+            <br>
+            <textarea  name="comments" id="comments" cols="24" rows="10"></textarea>
+        </fieldset>
+
+        <fieldset class="campo">
+            <label class="text cursiva" for="update">Recieve email updates?</label>
+            <input id="update" type="checkbox">
+            
+        </fieldset>
+        <input id="submit" type="submit" value="Submit">
     </form>
 
 </body>

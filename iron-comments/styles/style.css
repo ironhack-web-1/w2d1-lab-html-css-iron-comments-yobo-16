@@ -1,11 +1,60 @@
+:root {
+    --blue:rgb(25, 33, 41);
+    --lightBlue: rgb(67, 163, 230);
+    --texto: #fff;
+}
+
 body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
+    width: 100vw; 
+    background: var(--blue);  
 
 }
 
 #form-container {
     margin: auto;
+    width: 250px;
+    border: var(--lightBlue) solid 3px;
+    border-radius: 5px;
+}
+
+.text{
+    color: #fff;
+    font-size: 20px;
+}
+
+.campo{
+    border: none;
+    margin: auto;
+}
+
+.inputWidth{
+    width: 90%;
+    margin-top: 5px;
+    border: var(--lightBlue) solid 2px;
+    border-radius: 3px;
+    height: 20px;
+}
+
+#comments{
+    margin-top: 5px;
+    border: var(--lightBlue) solid 2px;
+    border-radius: 3px;
+}
+
+.cursiva{
+    font-style: oblique;
+}
+
+#submit{
+    margin: 0 0 20px 10px;
+    background-color: var(--lightBlue);
+    color: #fff;
+    text-align: center;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
 }
